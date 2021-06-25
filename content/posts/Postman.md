@@ -3,7 +3,6 @@ id: 1
 title: Postman HTB writeup
 # image field is not mandatory
 # you can skip it to keep the size of blog cards small
-image: /images/forest/mac-card.png
 createdAt: "2020-03-21 5:00:00"
 tags:
   - htb
