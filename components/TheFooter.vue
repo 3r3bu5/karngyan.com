@@ -66,9 +66,6 @@ export default {
       avatar: 'https://cdn.karngyan.com/karn.jpg',
       name: 'Karn',
       mode: 'dark',
-      description: 'Software Engineer who tinkers with side projects, every now n then.',
-      content: `Hey, I am Karn 👋<br/> I built this template for procrastinating devs to set up their portfolio + blogs<br/><br/>
-Click on the link to visit the github repo to fork 👇🏾`,
     }
   }
 }
