@@ -14,7 +14,6 @@ author:
   image: /images/portfolio.png
 ---
 
-
 Short Summary
 
 - Phase 1   Reconnaissance.
@@ -27,7 +26,7 @@ Short Summary
         2.1.1 Search for CVEs.
 
         2.1.2 Exploring the website.
-<!--> More <!-->
+<!--more-->
     - 2.2 Scanning port **80**
 
         2.2.1 Exploring the website main page.
