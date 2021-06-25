@@ -1,7 +1,7 @@
 ---
 id: 5
 title: System-Design:Basics
-createdAt: "2020-06-6 5:00:00"
+createdAt: "2021-06-6 5:00:00"
 # image field is not mandatory
 # you can skip it to keep the size of blog cards small
 # image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80
