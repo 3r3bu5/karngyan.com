@@ -92,7 +92,7 @@ export default {
         signOut: 'sign out'
       },
       hero: {
-        iBlogTech: 'I learn thing and explain them',
+        iBlogTech: 'I learn things and explain them',
         haveALook: 'Have a look',
         friendlyNeighborhood: 'Your curious',
         description: 'I am a Software Engineer and a Cyber Security Enthusiast. I blog tech, and tinker with side projects every now n then.',
