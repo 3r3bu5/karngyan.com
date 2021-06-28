@@ -87,16 +87,16 @@ export default {
         projects: 'Projects',
         uses: 'uses',
         resume: 'Résumé',
-        buyMeACoffee: 'buy me a beer',
+        buyMeACoffee: 'buy me a coffee',
         signIn: 'sign in',
         signOut: 'sign out'
       },
       hero: {
-        iBlogTech: 'I blog tech',
+        iBlogTech: 'I learn thing and explain them',
         haveALook: 'Have a look',
-        friendlyNeighborhood: 'your curious',
+        friendlyNeighborhood: 'Your curious',
         description: 'I am a Software Engineer and a Cyber Security Enthusiast. I blog tech, and tinker with side projects every now n then.',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        words: ['Developer', 'Designer', 'Engineer', 'Programmer', 'Architect'],
       },
       githubCalendar: {
         header: 'Contributions',
