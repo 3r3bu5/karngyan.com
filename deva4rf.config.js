@@ -7,7 +7,7 @@ export default {
   email: 'deva4rf@gmail.com',
   googleAnalyticsV4: {
     enabled: true,
-    id: 'G-TXBW3WZJLG'
+    id: '277541528'
   },
   plausibleAnalytics: {
     enabled: true,
