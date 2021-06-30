@@ -35,7 +35,7 @@
               </div>
             </header>
 
-            <div class="prose dark:prose-dark break-words my-4 prose-sm max-w-4xl mx-auto">
+            <div class="meh prose dark:prose-dark break-words my-4 prose-sm max-w-4xl mx-auto">
               <nuxt-content :document="project" />
             </div>
           </div>
@@ -144,6 +144,9 @@ export default {
 
 >>> .nuxt-content img {
   @apply mx-auto rounded-md;
+}
+>>> .meh {
+  @apply text-meh;
 }
 
 </style>

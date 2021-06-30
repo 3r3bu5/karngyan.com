@@ -21,6 +21,7 @@ module.exports = {
         'gray-200': '#D3D4D4',
         'gray-100': '#ECECEC',
         'gray-50': '#F4F4F4',
+        'meh': '#d4d2cd'
       },
       typography: (theme) => ({
         dark: {
@@ -76,7 +77,7 @@ module.exports = {
         },
       }),
       fontFamily: {
-        sans: ['Inter var',...defaultTheme.fontFamily.sans],
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
   },
