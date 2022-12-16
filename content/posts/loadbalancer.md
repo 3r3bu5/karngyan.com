@@ -4,7 +4,7 @@ title: System-Design:Load balancer
 createdAt: "2021-06-30 5:00:00"
 # image field is not mandatory
 # you can skip it to keep the size of blog cards small
- image: /images/loadbalancer/Simple_load_balancer_arch.png
+image: /images/loadbalancer/Simple_load_balancer_arch.png
 tags:
   - system design
   - scalability
