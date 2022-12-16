@@ -4,6 +4,7 @@ title: Postman HTB writeup
 # image field is not mandatory
 # you can skip it to keep the size of blog cards small
 createdAt: "2020-03-21 5:00:00"
+image: https://www.hackthebox.com/storage/avatars/ad38e890e4e93afce51118bec4b9f48b.png
 tags:
   - htb
   - writeup
