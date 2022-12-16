@@ -4,7 +4,7 @@ title: What Happens When You Type Reddit.com Into Your Browser ? Part(1) (DNS)
 createdAt: "2022-12-11 5:00:00"
 # image field is not mandatory
 # you can skip it to keep the size of blog cards small
-image: /images/whathappens/Howinternetworks.jpg](/images/whathappens/Howinternetworks.jpg
+image: /images/whathappens/Howinternetworks.jpg
 tags:
   - network
   - dns
@@ -20,7 +20,7 @@ author:
 This article is me trying to understand how DNS, browsers, and the system itself work together to achieve a "taken for granted" task like accessing a webpage. Why reddit? because I like it. 😃.
 We are going to assume that nothing is cached, including DNS records, HTTP resources (HTML files, images, JS files, web fonts, etc.), and that we are connecting to [reddit.com](http://reddit.com) for the first time. NOTHING is cached.
 
-The Article is surprisingly long, So I recommend you read  
+The Article is surprisingly long, So divided it into 3 parts.
 
 The article answers many questions like:  
 * What exactly is an IP address?  
