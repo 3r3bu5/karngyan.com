@@ -1,10 +1,10 @@
 ---
 id: 7
-title: But What Really Happens When You Type Reddit.com Into Your Browser ? Part(1)
-createdAt: "2021-12-11 5:00:00"
+title: What Happens When You Type Reddit.com Into Your Browser ? Part(1) (DNS)
+createdAt: "2022-12-11 5:00:00"
 # image field is not mandatory
 # you can skip it to keep the size of blog cards small
-# image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80
+image: /images/whathappens/Howinternetworks.jpg](/images/whathappens/Howinternetworks.jpg
 tags:
   - network
   - dns
@@ -15,7 +15,7 @@ author:
   image: /images/portfolio.png
 ---
 
-# But What Really Happens When You Type Reddit.com Into Your Browser ? Part(1)
+# What Happens When You Type Reddit.com Into Your Browser ? Part1 (DNS)
 
 This article is me trying to understand how DNS, browsers, and the system itself work together to achieve a "taken for granted" task like accessing a webpage. Why reddit? because I like it. 😃.
 We are going to assume that nothing is cached, including DNS records, HTTP resources (HTML files, images, JS files, web fonts, etc.), and that we are connecting to [reddit.com](http://reddit.com) for the first time. NOTHING is cached.
@@ -72,7 +72,7 @@ Here is a copy of my local DNS cache file.
 ![/images/whathappens/image.png](/images/whathappens/image.png)
 
 The OS DNS cache also doesn't have the IP address. Now that's a problem. Where else can we get the IP from?  
-![/images/whathappens/full dns query.gif](/images/whathappens/full dns query.gif)
+![/images/whathappens/fulldnsquery.gif](/images/whathappens/fulldnsquery.gif)
 
 
 The OS knows the answer; it will call a server called the recursive resolver (which is frequently your ISP DNS server).  
@@ -93,5 +93,7 @@ The recursive resolver takes a trip to find the IP address.
 7.  The resolver then responds to the OS with the results and caches them.  
 8. The IP address is passed to the web browser along with the domain reddit.com by the operating system.  
 9.  The browser is now able to establish a connection with reddit.com.  
-![/images/whathappens/How internet works.jpg](/images/whathappens/How internet works.jpg)
+![/images/whathappens/Howinternetworks.jpg](/images/whathappens/Howinternetworks.jpg)
+
+
 
