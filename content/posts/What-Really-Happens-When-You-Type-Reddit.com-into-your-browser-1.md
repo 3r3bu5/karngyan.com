@@ -95,5 +95,7 @@ The recursive resolver takes a trip to find the IP address.
 9.  The browser is now able to establish a connection with reddit.com.  
 ![/images/whathappens/Howinternetworks.jpg](/images/whathappens/Howinternetworks.jpg)
 
+**[Part 2 : Network](https://a4raf-gehad.netlify.app/blog/What-Really-Happens-When-You-Type-Reddit.com-into-your-browser-2)**
+
 
 

@@ -4,7 +4,7 @@ title: What Happens When You Type Reddit.com Into Your Browser ? Part(2) (Networ
 createdAt: "2022-12-14 5:00:00"
 # image field is not mandatory
 # you can skip it to keep the size of blog cards small
-image: /images/whathappens/Howinternetworks.jpg
+image: /images/whathappens/1670269601196.jpg
 tags:
   - network
   - dns
@@ -15,9 +15,9 @@ author:
   image: /images/portfolio.png
 ---
 
-This article is part 2 of my How Internet Works series.
+This article is **part 2** of my How Internet Works article series.
 
-Part 1 : [Part 1 (DNS)]()
+**[Part 1 (DNS)](https://a4raf-gehad.netlify.app/blog/What-Really-Happens-When-You-Type-Reddit.com-into-your-browser-1)**
 
 ---  
 
@@ -52,7 +52,7 @@ The flag highlighted is to show that this is a DNS response query to an earlier 
 * Time To Live (TTL): the number of seconds this record will remain in my system before requesting a new value.  
 **3- TCP 3-way handshake**   
 **3.1- SYN :** My network begins the connection by sending the TCP SYN packet to reddit.com. The packets contain a random sequence number that indicates the beginning of the sequence numbers for data transmission (example: 1234).  
-    ![[syn.png]]  
+![/images/whathappens/syn.png]](/images/whathappens/syn.png])
 **3.2-SYN-ACK:** After that, the server will receive the packet, and it will respond with its sequence number. Its response also includes the acknowledgment number, which is my network sequence number incremented by 1 (1235).  
 ![/images/whathappens/syn-ack.png](/images/whathappens/syn-ack.png)
 **3.3-ACK:** My network responds to the server by sending the acknowledgment number, which is mostly the server’s sequence number that is incremented by 1.  
@@ -64,3 +64,6 @@ The flag highlighted is to show that this is a DNS response query to an earlier 
 ![/images/whathappens/client-finish.png](/images/whathappens/client-finish.png)
 **4.3. Application Data:**  Now, the server sends the data requested by the user, but encrypted.  
 ![/images/whathappens/all.png](/images/whathappens/all.png)
+
+**[Part 3 : Browser](https://a4raf-gehad.netlify.app/blog/What-Really-Happens-When-You-Type-Reddit.com-into-your-browser-3)**
+
